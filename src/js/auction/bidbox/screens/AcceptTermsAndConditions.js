@@ -29,6 +29,7 @@ export default function AcceptTermsAndConditions({ onAccept, onReject }) {
     <Screen
       faIcon="fa fa-arrow-circle-right"
       title="Accept the Terms and Conditions"
+      helpText="This is laywer stuff. "
     >
       <MessageBlock>
         In order to begin with your participation, please read and accept our

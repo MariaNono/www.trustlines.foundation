@@ -8,6 +8,7 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@creativebulma/bulma-collapsible": "^1.0.4",
+    "@creativebulma/bulma-tooltip": "^1.2.0",
     "babel-eslint": "10.0.1",
     "babel-loader": "^8.0.6",
     "babel-preset-react-app": "^9.0.0",
@@ -34,6 +35,7 @@
     "html-minifier": "^4.0.0",
     "husky": "^3.0.2",
     "livereload": "^0.8.0",
+    "mathjs": "^7.0.0",
     "moment-timezone": "^0.5.26",
     "node-sass": "^4.12.0",
     "nunjucks-cli": "^1.0.0",
@@ -47,8 +49,7 @@
     "web3": "2.0.0-alpha.1",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6",
-    "webpack-merge": "^4.2.1",
-    "mathjs": "^7.0.0"
+    "webpack-merge": "^4.2.1"
   },
   "scripts": {
     "docker-preview": "yarn run build-preview && docker build . -t preview.trustlines.foundation",
